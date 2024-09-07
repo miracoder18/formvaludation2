@@ -1,0 +1,10 @@
+.form{
+      display: flex;
+}
+.create{
+      background-color: white;
+      color: black;
+}
+.danger{
+      color: red;
+}
