@@ -25,6 +25,7 @@ function Form() {
   });
   const [error, seterror] = useState("");
   const [valid, setvalid] = useState(true);
+  const [sekil, setsekil] = useState("");
   const handleSubmit = (e) => {
     e.preventDefault();
     console.log(formdata);
@@ -77,7 +78,10 @@ function Form() {
   return (
     <div>
       <Navbar />
-      <div className="form">
+    
+         
+      
+      {/* <div className="form">
         <div>
           <img src={bgimg} alt="" />
         </div>
@@ -176,7 +180,7 @@ function Form() {
             Create account
           </Button>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 }
